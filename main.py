@@ -18,4 +18,4 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return af.read_collection_login_game()
+    return af.read_collection_environment()
